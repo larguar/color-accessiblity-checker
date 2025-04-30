@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Color Accessibility Checker</title>
+  <link rel="stylesheet" href="https://use.typekit.net/vpb3cve.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <main id="colors">
+    <section class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col col-12 col-xl-10 offset-xl-1">
+            <table class="table align-middle">
+              <thead>
+                <tr>
+                  <th scope="col">
+                    <h1>Color Contrast</h1>
+                    <p>Accessibility at a glance</p>
+                  </th>
+                  <th scope="col">
+                    <h2>AA</h2>
+                    <p>Essential standard</p>
+                  </th>
+                  <th scope="col">
+                    <h2>AAA</h2>
+                    <p>Highest standard</p>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">
+                    Large text
+                    <p>At least 24px or Bold 19px</p>
+                  </th>
+                  <td>3:1</td>
+                  <td>4.5:1</td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    Normal text
+                    <p>Below 24px or Bold 19px</p>
+                  </th>
+                  <td>4.5:1</td>
+                  <td>7:1</td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    Graphics
+                    <p>Icons, controls, meaningful elements</p>
+                  </th>
+                  <td>3:1</td>
+                  <td>—</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <script src="js/script.js"></script>
+
+</body>
+</html>
